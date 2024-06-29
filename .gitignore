@@ -1,0 +1,28 @@
+# Ignore Maven build artifacts
+target/
+
+# Ignore generated files by Maven
+*.log
+*.tmp
+*.swp
+
+# Ignore IDE-specific files
+.idea/
+*.iml
+
+# Ignore Eclipse-specific files
+.eclipse/
+.settings/
+
+# Ignore Gradle-specific files (if you're also using Gradle)
+.gradle/
+
+# Ignore other generated files
+mvn-*.jar
+mvn-*/pom.xml
+
+# Ignore Maven's cache directory
+.m2/repository/
+
+# Ignore the Maven wrapper script
+wrapper/

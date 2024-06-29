@@ -1,0 +1,8 @@
+{
+    "java.compile.nullAnalysis.mode": "disabled",
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "launch": {
+        "preTestCommand": "",
+        "postTestCommand": "mvn jacoco:prepare-agent test install jacoco:report"
+    }
+}
